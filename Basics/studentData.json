@@ -1,0 +1,54 @@
+{
+  "students": [
+    {
+      "name": "Ram",
+      "age": 20,
+      "branch": "IT"
+    },
+    {
+      "name": "Parth",
+      "age": 22,
+      "branch": "CSE"
+    },
+    {
+      "name": "Rohan",
+      "age": 18,
+      "branch": "AIDS"
+    },
+    {
+      "name": "Bharat",
+      "age": 25,
+      "branch": "Mechanical"
+    },
+    {
+      "name": "Yash",
+      "age": 28,
+      "branch": "Aerospace"
+    },
+    {
+      "name": "Vishal",
+      "age": 21,
+      "branch": "Civil"
+    },
+    {
+      "name": "Om",
+      "age": 17,
+      "branch": "Chemical"
+    },
+    {
+      "name": "Raj",
+      "age": 26,
+      "branch": "Electrical"
+    },
+    {
+      "name": "Indrajeet",
+      "age": 23,
+      "branch": "Biotechnology"
+    },
+    {
+      "name": "Yashraj",
+      "age": 24,
+      "branch": "Environmental"
+    }
+  ]
+}
