@@ -1,0 +1,8 @@
+Structure
+controllers => functions
+views => all pages
+models => database schemas
+routes => all paths
+middlewares => functions for specific tasks
+
+
