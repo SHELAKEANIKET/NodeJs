@@ -9,12 +9,15 @@ async function generateRandomURL(req, res) {
   }
   const shortID = shortid(); //? it generate random id with 8 characters
 
+  //? new url create
   await URL.create({
     shortId: shortID,
     redirectURL: body.url,
     visitedHistory: [],
+    generatedBy : req.user._id,
   });
 
+  //? index page render here
   return res.render("index", {
     id: shortID,
   });

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #424242;
+            color: whitesmoke;
+            padding: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Signup Form</h1>
+    <div>
+        <form action="/user" method="post">
+            <label>Full Name :</label>
+            <input type="text" name="name" required placeholder="John Doe">
+            <br>
+            <br>
+            <label>Email :</label>
+            <input type="email" name="email" required placeholder="johndoe123@example.com">
+            <br>
+            <br>
+            <label>Password :</label>
+            <input type="password" name="password" required placeholder="****">
+            <br>
+            <br>
+            <button type="submit">Signup</button>
+        </form>
+    </div>
+</body>
+</html>

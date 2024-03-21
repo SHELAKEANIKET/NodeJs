@@ -1,0 +1,8 @@
+start localhost:3001 - index.js 
+-> route /url - if logged in - generate url - else /login 
+-> route /user - handleSignup for signup & handleLogin for login 
+-> route / - if user not found - /login else show his all short url's 
+
+index.ejs - home page
+login.ejs - login page
+signup.ejs - signup page
