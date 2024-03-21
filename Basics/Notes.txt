@@ -35,5 +35,13 @@ HTTP Headers :
 HTTP headers let the client and the server pass additional information with an HTTP request or response.
 
 best practice :
-when we create the custom header then this should be start with X-'name', that denotes this is custom header
+when we create the custom header then this should be start with X-'headerName', that denotes this is custom header.
 
+------------------------------
+* Interview *
+Difference between PUT and PATCH methods => 
+ - both HTTP methods are used to modify (change) the existing data.
+ - PUT method updates the data without including the existing remaining part which we doesn't want to update. (delete the remaining data)
+ - PATCH method updates the data & includes the remaining data which we doesn't want to update. (doesn't delete the remaining data)
+
+ 
